@@ -3,6 +3,23 @@
 <template>
     <div class="w-1/12 flex bg-slate-500 h-screen flex-col items-center gap-10">
         <div class="flex justify-center mt-10 group cursor-pointer gap-1">
+            <div class="w-20 h-20 overflow-hidden rounded-full">
+                <img src="../../../assets/logo.png" alt="">
+            </div>
+        </div>
+
+        <div class="flex justify-center mt-10 group cursor-pointer gap-1">
+
+            <svg class="h-6 w-6 text-white group-hover:animate-pulse" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+            </svg>
+
+            <p class="text-md text-white">Chat</p>
+        </div>
+
+        <div class="flex justify-center mt-10 group cursor-pointer gap-1">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white"
                 class="w-6 h-6 group-hover:animate-spin">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -12,9 +29,12 @@
 
             <p class="text-md text-white">Setting</p>
         </div>
+
+
+
+
         <button class="p-2 w-20 bg-red-500 rounded-sm">
-            Log Out 
+            Log Out
         </button>
-    </div>
-</template>
+</div></template>
 <style scoped></style>
